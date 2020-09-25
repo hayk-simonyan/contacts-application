@@ -15,7 +15,7 @@ The config file inside of `./config/contactFormConfig.json` contains object with
 
 Each key represents one input with the following attributes
 
-1. `elementType` - can be `input` or `textarea` (optional, by default it is `input`)
+1. `elementType` - can be `input` or `textarea` (by default it is `input`)
 2. `elementConfig` - contains all the attributes that you can pass to an input, like this (optional)
 
 ```javascript
@@ -41,9 +41,9 @@ Each key represents one input with the following attributes
     },
 ```
 
-5. `valid` - you can specify if the input is valid initially or not with this boolean property
+5. `valid` - you can specify if the input is valid initially or not with this boolean property (optional)
 
-6. `touched` - used to add css class for the inputs for better user experience, if its set to true than input will show error right after first load.
+6. `touched` - used to add css class for the inputs for better user experience, if its set to true than input will show error right after first load. (optional)
 
 You can just take out `Form` and `Input` components from this project and use them in your application.
 
