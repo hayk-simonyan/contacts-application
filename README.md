@@ -1,7 +1,7 @@
 ## To run this application
 
-1. `git clone https://github.com/hayk77/contacts-task`
-2. `cd contacts-task`
+1. `git clone https://github.com/hayk77/contacts-application`
+2. `cd contacts-application`
 3. `npm i`
 4. `npm start`
 
